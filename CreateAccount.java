@@ -17,7 +17,7 @@ public class CreateAccount{
 		
 		WebDriver driver = new ChromeDriver();
 		
-		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
 		driver.get("https://auth.dev.vntech.io/");
 		
